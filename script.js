@@ -1,3 +1,11 @@
 function alertHello(){
-alert("hello, I'm "+document.getElementById("lname").checked?"checked":"unchecked");
+  var checkbox = document.getElementById("lname");
+  if(checkbox.checked)
+  {
+    alert("I'm checked.");
+  }
+  else
+  {
+    alert("I'm sad.");
+  }
 }
