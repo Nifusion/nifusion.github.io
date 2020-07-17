@@ -9,3 +9,19 @@ function alertHello(){
     alert("I'm sad.");
   }
 }
+
+$(document).ready(()=>
+{
+  var checkbox = document.getElementById("lname");
+  checkbox.addEventListener('change', ()=>
+  {
+    if(checkbox.checked)
+    {
+      alert('Yay.');
+    }
+    else(checkbox.checked)
+    {
+      alert('Awww...');
+    }
+  }
+}
