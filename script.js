@@ -1,3 +1,3 @@
 function alertHello(){
-alert('hello');
+alert("hello, I'm "+document.getElementByID("lname").checked?"checked":"unchecked");
 }
