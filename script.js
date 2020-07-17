@@ -23,5 +23,5 @@ $(document).ready(()=>
     {
       alert('Awww...');
     }
-  }
-}
+  });
+};
